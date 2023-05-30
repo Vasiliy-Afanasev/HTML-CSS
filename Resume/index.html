@@ -5,26 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Резюме</title>
-    <link rel="stylesheet" type="text/css" href="Resume.css" />
+    <link rel="stylesheet" type="text/css" href="Style.css" />
 </head>
 <body>
     <div id="app">
         <div class="tm-page-width">
             <header class="header">
-                <div class="Photo">
-                    <img src="image/photo.jpg" alt="Photo" />                               
-                    <div class="Name">
-                        <h1 style="line-height: 0.2;"> Афанасьев Василий </h1>
-                        <p> Тестировщик QA. Возвраст: 29 лет</p>   
-                    </div>             
+                <div class="Navigation">
+                    <a style="margin-right: 10px; text-decoration: none; color: inherit; font-weight: bold;" href="#Work_experience" >Опыт работы</a>
+                    <a style="margin: 10px; text-decoration: none; color: inherit; font-weight: bold;" href="#Education">Образование</a>
+                    <a style="margin: 10px; text-decoration: none; color: inherit; font-weight: bold;" href="#Coursest">Курсы</a>
+                    <a style="margin: 10px; text-decoration: none; color: inherit; font-weight: bold;" href="#about_me">О себе</a>                     
                 </div>
-                 <div class="social_box">
+                <div class="Photo">
+                    <img src="image/Photo.png" alt="Photo"/>                           
+                    <div class="Name">
+                        <h1 style="line-height: 0.2; font-size: 40px"> Афанасьев Василий </h1>
+                        <p> Тестировщик QA. Возвраст: 29 лет</p>                         
+                    </div>                                  
+                </div>
+                <div class="social_box">
                     <a href='https://github.com/Vasiliy-Afanasev?tab=repositories' target="_blank"><img src="image/GitHub.png" alt='' width='40' title="GitHub"/></a>
                     <a href='https://vk.com/vasiliy_afanasev' target="_blank"><img src="image/VK.png" alt='' width='40' title="VK"/></a>                       
                 </div>
             </header>
-            <div class="Work_experience">                
-                <h1> <u> Опыт работы </u></h1>
+            <div class="Work_experience"> 
+                <h1 id="Work_experience"> <u> Опыт работы </u></h1>
                 <hr>
                 <h2 style="font-weight: bold;">  ООО "ТНГ-Групп" ЦГИ Супервизия</h2>
                 <p style="font-style: italic; font-size: 20px; line-height: 1;"> Геофизик-супервайзер (Июль 2020 — по настоящее время)</p>
@@ -37,7 +43,7 @@
                     <li> Принимаю участие в сдаче и защите проектов</li>
                 </ul>
                 <h2 style="font-weight: bold;">  ООО "ТНГ-Групп"</h2>
-                <p style="font-style: italic; font-size: 20px; line-height: 0.4;"> Геофизик-оператор (Сентябрь 2017 — июль 2020)</p>
+                <p style="font-style: italic; font-size: 20px; line-height: 1;"> Геофизик-оператор (Сентябрь 2017 — июль 2020)</p>
                 <ul style=" font-size: 20px;"> 
                     <li> Отвечал за регистрацию качественных данных согласно заданным параметрам</li>
                     <li> Занимался организацией работы, координацией действий подразделений на участке работ</li>
@@ -45,40 +51,33 @@
                 </ul>                            
             </div>
             <div class="Education">
+                <h1 id="Education"> <u>Высшее образование (Магистр)</u></h1>
                 <hr>
-                <h1> <u>Высшее образование (Магистр)</u></h1>
-                <hr>
-                <p style="font-style: italic; font-size: 20px; line-height: 0;">Пермский государственный университет (ПГНИУ), Пермь 2023</p>
-                <p style="margin: 20px; line-height: 0,5;" >Геологический, Геология</p>
-                <p style="font-style: italic; font-size: 20px; line-height: 0;">Казанский (Приволжский) федеральный университет, Казань 2017</p>
-                <p style="margin: 20px; line-height: 0,5;">ИГиНГТ, Геофизика</p>
-            </div>             
-            <div class="Coursest">
-                <hr>
-                <h1> <u>Повышение квалификации, курсы</u></h1>
+                <p style="font-style: italic; font-size: 20px; line-height: 1;">Пермский государственный университет (ПГНИУ), Пермь 2023</p>
+                <p style="margin: 20px; line-height: 0,2;" >Геологический, Геология</p>
+                <p style="font-style: italic; font-size: 20px; line-height: 1;">Казанский (Приволжский) федеральный университет, Казань 2017</p>
+                <p style="margin: 20px; line-height: 0,2;">ИГиНГТ, Геофизика</p>
+                <h1 id="Coursest"> <u>Повышение квалификации, курсы</u></h1>
                 <hr>
                 <div class="links">
                     <div class="links1">
-                        <a href='https://ksendzov.com/' target="_blank"><img src="image/Ksendzov.png" alt='' width='17' title="Ksendzov"/></a>
-                        <p style="font-weight: bold; font-size: 20px; ">Курс тестирования ПО </p>
+                        <a href='https://ksendzov.com/' style="text-decoration: none; color: inherit;" target="_blank"><img src="image/Ksendzov.png" alt='' width='17' title="Ksendzov"/><p style="font-weight: bold; font-size: 20px; ">Курс тестирования ПО </p></a>
                         <p style="margin: 20px; line-height: 0,5;">Вадим Ксендзов</p>
                     </div>
                     <div class="links2">
-                        <a href='https://www.youtube.com/playlist?list=PLKbJd47Kcbjs0MsaWIBkrKqb_Gy9uvqdk' target="_blank"><img src="image/YouTube.png" alt='' width='20' title="Artsiom Rusau QA Life"/></a>
-                        <p style="font-weight: bold; font-size: 20px; ">Тестировщик с нуля. Профессиональный полный курс / QA engineer course</p>
+                        <a href='https://www.youtube.com/playlist?list=PLKbJd47Kcbjs0MsaWIBkrKqb_Gy9uvqdk' style="text-decoration: none; color: inherit;" target="_blank"><img src="image/YouTube.png" alt='' width='20' title="Artsiom Rusau QA Life"/><p style="font-weight: bold; font-size: 20px; ">Тестировщик с нуля. Профессиональный полный курс / QA engineer course</p></a>
                         <p style="margin: 20px; line-height: 0,5;" >Artsiom Rusau QA Life</p>
                     </div>
                     <div class="links3">
-                        <a href='https://www.youtube.com/playlist?list=PLZqgWWF4O-zg03RGSZ2GpHLE3BmO8bjKo' target="_blank"><img src="image/YouTube.png" alt='' width='20' title="Лёша Маршал"/></a>
-                        <p style="font-weight: bold; font-size: 20px; ">Тестировщик с нуля / QA / Тестирование по полный курс</p>
+                        <a href='https://www.youtube.com/playlist?list=PLZqgWWF4O-zg03RGSZ2GpHLE3BmO8bjKo' style="text-decoration: none; color: inherit;" target="_blank"><img src="image/YouTube.png" alt='' width='20' title="Лёша Маршал"/><p style="font-weight: bold; font-size: 20px; ">Тестировщик с нуля / QA / Тестирование по полный курс</p></a>
                         <p style="margin: 20px; line-height: 0,5;">Лёша Маршал</p>
                     </div>                                    
                 </div>
             </div> 
-            <div class="about me">
+            <div class="about_me">
+                <h1 id="about_me"> <u>О себе </u></h1>
                 <hr>
-                <h1> <u>О себе </u></h1>
-                <hr>
+                <p style="font-style: italic; text-indent: 40px; font-size: 20px;">Всегда было интересно все что связано с компьютерами, поэтому решился сделать шаг в этом направлении. Подошел к вопросу серьезно, изучил много информации про IT. Понял, что моя нынешняя профессия весьма релевантная с профессией QA Инженера, изучая больше информации, все больше в этом убеждался. Профессия тестировщика мне интересна, я хочу и готов развиваться в этой сфере.</p>
                 <p style="font-style: italic; font-size: 20px; line-height: 0;"> Хард скиллы:</p>
                 <ul style=" font-size: 20px;"> 
                     <li> Знание и понимание теории тестирования</li>
@@ -92,7 +91,8 @@
                     <li> Понимание клиент-серверной архитектуры</li>
                     <li> HTTP-протокол (GET,POST,PUT,DELETE запросы)</li>
                     <li> Техники тест дизайна (классы эквивалентности, анализ граничных значений, таблица принятия решений, попарное тестирование и т.д.)</li>
-                    <li> Тестирование API (REST, SOAP, JSON, XML) — Работа с БД MySQL(SELECT, JOIN, WHERE)</li>
+                    <li> Тестирование API (REST, SOAP, JSON, XML)</li>
+                    <li> Работа с БД MySQL(SELECT, JOIN, WHERE)</li>
                 </ul>
                 <p style="font-style: italic; font-size: 20px; line-height: 0;"> Софт скиллы:</p>
                 <ul style=" font-size: 20px;"> 
@@ -103,8 +103,7 @@
                     <li> Способен быстро обучаться. Имею желание и способности учиться новому и искать способы улучшения своих навыков</li>
                     <li> Настойчив и терпелив. Способен продолжать работу над проблемой, даже если решение может занять много времени</li>                    
                 </ul>
-                <p style="font-style: italic; text-indent: 40px; font-size: 20px;">Всегда было интересно все что связано с компьютерами, поэтому решился сделать шаг в этом направлении. Подошел к вопросу серьезно, изучил много информации про IT. Понял, что моя нынешняя профессия весьма релевантная с профессией QA Инженера, изучая больше информации, все больше в этом убеждался. Профессия тестировщика мне интересна, я хочу и готов развиваться в этой сфере.</p>
-            </div>
+                </div>
         </div>
     </div>
 </body>
